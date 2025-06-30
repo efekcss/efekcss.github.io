@@ -7,6 +7,7 @@
 import React from "react";
 
 import About from "./Components/About";
+import Education from "./Components/Education";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
@@ -27,16 +28,16 @@ const siteProps = {
   name: "H. Efe Kocasu",
   title: "Statistics Student || Data Scientist(not even Jr.) || ML & DL & AI",
   email: "kocasuhasanefe@gmail.com",
-  gitHub: "microsoft",
-  instagram: "microsoft",
-  linkedIn: "satyanadella",
-  medium: "",
-  twitter: "microsoft",
-  youTube: "Code",
+  gitHub: "efekcss", // GitHub kullanıcı adınızı buraya yazın
+  instagram: "efekcss", // Instagram hesabınız varsa buraya yazın
+  linkedIn: "Hasan Efe Kocasu", // LinkedIn profil adınızı buraya yazın
+  medium: "@hefekocasu", // Medium hesabınız varsa buraya yazın
+  twitter: "efekcss", // Twitter hesabınız varsa buraya yazın
+  youTube: "", // YouTube kanalınız varsa buraya yazın
 };
 
-const primaryColor = "#4E567E";
-const secondaryColor = "#D2F1E4";
+const primaryColor = "#1E3A8A"; // Koyu mavi - veri bilimi teması
+const secondaryColor = "#E0F2FE"; // Açık mavi
 
 const App = () => {
   return (
@@ -44,6 +45,7 @@ const App = () => {
       <Header />
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
+      <Education />
       <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>

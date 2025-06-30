@@ -31,10 +31,14 @@ const description =
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Data Analyze",
-  "Machine Learning Algorithms",
-  "Deep Learning Algorithms",
-  "Agentic AI",
+  "Python & R Programming",
+  "Machine Learning (Scikit-learn, XGBoost)",
+  "Deep Learning (TensorFlow, PyTorch)",
+  "Data Visualization (Matplotlib, Plotly)",
+  "Statistical Analysis & Hypothesis Testing",
+  "SQL & Database Management",
+  "Agentic AI & LLM Development",
+  "Git & Version Control",
 ];
 
 /**
