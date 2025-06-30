@@ -1,7 +1,7 @@
 {
-  "name": "educator-js-codespace-template",
+  "name": "efekcss-portfolio",
   "version": "1.0.0",
-  "description": "Educator JS Codespace Template",
+  "description": "H. Efe Kocasu - Personal Portfolio Website",
   "source": "src/index.html",
   "homepage": "https://efekcss.github.io",
   "scripts": {
@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/microsoft/codespaces-teaching-template-js.git"
+    "url": "git+https://github.com/efekcss/efekcss.github.io.git"
   },
-  "author": "Microsoft",
-  "license": "ISC",
+  "author": "H. Efe Kocasu",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/microsoft/codespaces-teaching-template-js/issues"
+    "url": "https://github.com/efekcss/efekcss.github.io/issues"
   },
   "dependencies": {
     "react": "^18.2.0",
