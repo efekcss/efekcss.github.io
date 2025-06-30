@@ -27113,7 +27113,7 @@ var _stylesCss = require("./styles.css");
  * If you don't have one of the social sites listed, leave it as an empty string.
  */ const siteProps = {
     name: "H. Efe Kocasu",
-    title: "Statistics Student || Data Scientist(not even Jr.) || ML & DL & AI",
+    title: "Statistics Student || Data Scientist(not even yet Jr. but on it) || ML & DL & AI",
     email: "kocasuhasanefe@gmail.com",
     gitHub: "efekcss",
     instagram: "efekcss",
@@ -27122,8 +27122,8 @@ var _stylesCss = require("./styles.css");
     twitter: "efekcss",
     youTube: ""
 };
-const primaryColor = "#1E3A8A"; // Koyu mavi - veri bilimi teması
-const secondaryColor = "#E0F2FE"; // Açık mavi
+const primaryColor = "#FFFFFF"; // Koyu mavi - veri bilimi teması
+const secondaryColor = "#000000"; // Açık mavi
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         id: "main",
@@ -28794,16 +28794,6 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
         title: "App Timer",
         description: "Windows app timer and blocker for battle with screen addiction. Focus on more important things with this productivity tool.",
         url: "https://github.com/efekcss/app_timer"
-    },
-    {
-        title: "Data Science Portfolio",
-        description: "Collection of data science projects including machine learning models, statistical analysis, and data visualizations using Python and R.",
-        url: "#"
-    },
-    {
-        title: "Statistical Analysis Dashboard",
-        description: "Interactive dashboard for statistical analysis and data visualization built with Python, Streamlit, and Plotly.",
-        url: "#"
     }, 
 ];
 const Portfolio = ()=>{
@@ -28818,7 +28808,7 @@ const Portfolio = ()=>{
                 children: "Portfolio"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 61,
+                lineNumber: 49,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28843,12 +28833,12 @@ const Portfolio = ()=>{
                                         children: project.title
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 67,
+                                        lineNumber: 55,
                                         columnNumber: 17
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 66,
+                                    lineNumber: 54,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28856,29 +28846,29 @@ const Portfolio = ()=>{
                                     children: project.description
                                 }, void 0, false, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 69,
+                                    lineNumber: 57,
                                     columnNumber: 15
                                 }, undefined)
                             ]
                         }, project.title, true, {
                             fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 65,
+                            lineNumber: 53,
                             columnNumber: 13
                         }, undefined))
                 }, void 0, false, {
                     fileName: "src/Components/Portfolio.jsx",
-                    lineNumber: 63,
+                    lineNumber: 51,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 62,
+                lineNumber: 50,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 60,
+        lineNumber: 48,
         columnNumber: 5
     }, undefined);
 };
