@@ -20,14 +20,13 @@ import PropTypes from "prop-types";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+// import image from "../images/design-desk.jpeg"; // Disabled for minimalist white background
 
-const imageAltText = "Desktop workspace with books and laptop for productivity";
+const imageAltText = "Minimalist white background for clean design";
 
 const Home = ({ name, title }) => {
   return (
-    <section id="home" className="min-height">
-      <img className="background" src={image} alt="" />
+    <section id="home" className="min-height" style={{ backgroundColor: '#ffffff' }}>
       <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem" }}>
         <h1>{name}</h1>
         <h2>{title}</h2>
