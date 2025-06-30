@@ -30,7 +30,7 @@ const siteProps = {
   email: "kocasuhasanefe@gmail.com",
   gitHub: "efekcss",
   instagram: "efekcss",
-  linkedIn: "efekcss/",
+  linkedIn: "efekcss",
   medium: "hefekocasu",
   twitter: "efekcss",
   youTube: "", 
