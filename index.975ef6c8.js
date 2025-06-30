@@ -27117,8 +27117,8 @@ var _stylesCss = require("./styles.css");
     email: "kocasuhasanefe@gmail.com",
     gitHub: "efekcss",
     instagram: "efekcss",
-    linkedIn: "Hasan Efe Kocasu",
-    medium: "@hefekocasu",
+    linkedIn: "efekcss/",
+    medium: "hefekocasu",
     twitter: "efekcss",
     youTube: ""
 };
