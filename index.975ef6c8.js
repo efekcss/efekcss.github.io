@@ -28945,18 +28945,6 @@ const educationList = [
         school: "Hacettepe University",
         period: "2022 - Present",
         description: "Focusing on statistical analysis, data science methodologies, and machine learning applications."
-    },
-    {
-        degree: "Data Science Bootcamp",
-        school: "Online Learning",
-        period: "2023",
-        description: "Intensive program covering Python, ML algorithms, and real-world data science projects."
-    },
-    {
-        degree: "Machine Learning Specialization",
-        school: "Coursera",
-        period: "2023",
-        description: "Advanced coursework in supervised and unsupervised learning, neural networks, and deep learning."
     }, 
 ];
 const Education = ()=>{
@@ -28971,7 +28959,7 @@ const Education = ()=>{
                 children: "Education"
             }, void 0, false, {
                 fileName: "src/Components/Education.jsx",
-                lineNumber: 33,
+                lineNumber: 21,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28980,109 +28968,84 @@ const Education = ()=>{
                     flexDirection: "row",
                     paddingTop: "3rem"
                 },
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        style: {
-                            maxWidth: "40%",
-                            alignSelf: "center"
-                        },
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
-                            style: {
-                                height: "90%",
-                                width: "100%",
-                                objectFit: "cover"
-                            },
-                            alt: "education and learning"
-                        }, void 0, false, {
-                            fileName: "src/Components/Education.jsx",
-                            lineNumber: 36,
-                            columnNumber: 11
-                        }, undefined)
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "container",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "box",
+                        children: educationList.map((education, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                style: {
+                                    marginBottom: "2rem",
+                                    padding: "1rem",
+                                    border: "1px solid #ddd",
+                                    borderRadius: "8px"
+                                },
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        style: {
+                                            marginBottom: "0.5rem",
+                                            color: "#1E3A8A"
+                                        },
+                                        children: education.degree
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Education.jsx",
+                                        lineNumber: 27,
+                                        columnNumber: 17
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                        style: {
+                                            marginBottom: "0.5rem",
+                                            color: "#666"
+                                        },
+                                        children: education.school
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Education.jsx",
+                                        lineNumber: 28,
+                                        columnNumber: 17
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        style: {
+                                            fontWeight: "bold",
+                                            marginBottom: "0.5rem",
+                                            color: "#888"
+                                        },
+                                        children: education.period
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Education.jsx",
+                                        lineNumber: 29,
+                                        columnNumber: 17
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: education.description
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Education.jsx",
+                                        lineNumber: 30,
+                                        columnNumber: 17
+                                    }, undefined)
+                                ]
+                            }, index, true, {
+                                fileName: "src/Components/Education.jsx",
+                                lineNumber: 26,
+                                columnNumber: 15
+                            }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/Education.jsx",
-                        lineNumber: 35,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "container",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "box",
-                            children: educationList.map((education, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    style: {
-                                        marginBottom: "2rem",
-                                        padding: "1rem",
-                                        border: "1px solid #ddd",
-                                        borderRadius: "8px"
-                                    },
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                            style: {
-                                                marginBottom: "0.5rem",
-                                                color: "#1E3A8A"
-                                            },
-                                            children: education.degree
-                                        }, void 0, false, {
-                                            fileName: "src/Components/Education.jsx",
-                                            lineNumber: 46,
-                                            columnNumber: 17
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                                            style: {
-                                                marginBottom: "0.5rem",
-                                                color: "#666"
-                                            },
-                                            children: education.school
-                                        }, void 0, false, {
-                                            fileName: "src/Components/Education.jsx",
-                                            lineNumber: 47,
-                                            columnNumber: 17
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                            style: {
-                                                fontWeight: "bold",
-                                                marginBottom: "0.5rem",
-                                                color: "#888"
-                                            },
-                                            children: education.period
-                                        }, void 0, false, {
-                                            fileName: "src/Components/Education.jsx",
-                                            lineNumber: 48,
-                                            columnNumber: 17
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                            children: education.description
-                                        }, void 0, false, {
-                                            fileName: "src/Components/Education.jsx",
-                                            lineNumber: 49,
-                                            columnNumber: 17
-                                        }, undefined)
-                                    ]
-                                }, index, true, {
-                                    fileName: "src/Components/Education.jsx",
-                                    lineNumber: 45,
-                                    columnNumber: 15
-                                }, undefined))
-                        }, void 0, false, {
-                            fileName: "src/Components/Education.jsx",
-                            lineNumber: 43,
-                            columnNumber: 11
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/Components/Education.jsx",
-                        lineNumber: 42,
-                        columnNumber: 9
+                        lineNumber: 24,
+                        columnNumber: 11
                     }, undefined)
-                ]
-            }, void 0, true, {
+                }, void 0, false, {
+                    fileName: "src/Components/Education.jsx",
+                    lineNumber: 23,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
                 fileName: "src/Components/Education.jsx",
-                lineNumber: 34,
+                lineNumber: 22,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Education.jsx",
-        lineNumber: 32,
+        lineNumber: 20,
         columnNumber: 5
     }, undefined);
 };
