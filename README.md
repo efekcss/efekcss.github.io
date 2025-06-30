@@ -26,52 +26,12 @@ This portfolio is built with:
 - **CSS3** - Styling
 - **JavaScript** - Interactivity
 
-## 📂 Project Structure
-
-```
-src/
-├── Components/
-│   ├── About.jsx
-│   ├── Education.jsx
-│   ├── Footer.jsx
-│   ├── Header.jsx
-│   ├── Home.jsx
-│   └── Portfolio.jsx
-├── images/
-├── App.jsx
-├── index.html
-├── index.js
-└── styles.css
-```
-
-## 🚀 Development
-
-To run this project locally:
-
-```bash
-# Install dependencies
-npm install
-
-# Start development server
-npm start
-
-# Build for production
-npm run build
-
-# Deploy to GitHub Pages
-npm run deploy
-```
-
 ## 📬 Contact
 
 - **Email**: kocasuhasanefe@gmail.com
 - **GitHub**: [@efekcss](https://github.com/efekcss)
 - **LinkedIn**: [Hasan Efe Kocasu](https://linkedin.com/in/efekcss)
 - **Medium**: [@hefekocasu](https://medium.com/@hefekocasu)
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
