@@ -28,12 +28,12 @@ const siteProps = {
   name: "H. Efe Kocasu",
   title: "Statistics Student || Data Scientist(not even Jr.) || ML & DL & AI",
   email: "kocasuhasanefe@gmail.com",
-  gitHub: "efekcss", // GitHub kullanıcı adınızı buraya yazın
-  instagram: "efekcss", // Instagram hesabınız varsa buraya yazın
-  linkedIn: "Hasan Efe Kocasu", // LinkedIn profil adınızı buraya yazın
-  medium: "@hefekocasu", // Medium hesabınız varsa buraya yazın
-  twitter: "efekcss", // Twitter hesabınız varsa buraya yazın
-  youTube: "", // YouTube kanalınız varsa buraya yazın
+  gitHub: "efekcss",
+  instagram: "efekcss",
+  linkedIn: "efekcss/",
+  medium: "hefekocasu",
+  twitter: "efekcss",
+  youTube: "", 
 };
 
 const primaryColor = "#1E3A8A"; // Koyu mavi - veri bilimi teması
