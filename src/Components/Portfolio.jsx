@@ -29,7 +29,7 @@ import React from "react";
  */
 const projectList = [
   {
-    title: "Open Passwd v0.1 🎉",
+    title: "Open Passwd v0.1",
     description:
       "Terminal üzerinden çalışan basit bir yerel parola yöneticisi. AES şifreleme ile güvenli parola saklama, parola üretme ve yönetme desteği sunar.",
     url: "https://github.com/efekcss/open-passwd_v0.1",

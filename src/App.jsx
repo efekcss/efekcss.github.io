@@ -36,8 +36,8 @@ const siteProps = {
   youTube: "", 
 };
 
-const primaryColor = "#FFFFFF"; // Koyu mavi - veri bilimi teması
-const secondaryColor = "#000000"; // Açık mavi
+const primaryColor = "#FFFFFF"; // Beyaz
+const secondaryColor = "#757A80"; // füme rengi gri
 
 const App = () => {
   return (
