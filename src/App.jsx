@@ -36,7 +36,7 @@ const siteProps = {
   youTube: "", 
 };
 
-const primaryColor = "#FFFFFF"; // Beyaz renk
+const primaryColor = "#000000"; // Beyaz renk
 const secondaryColor = "#757A80"; //  Füme rengi (gri)
 
 const App = () => {
