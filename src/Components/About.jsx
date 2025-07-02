@@ -47,7 +47,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth. -- Marcus Aurelius";
+  "Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth.";
 
   
 const About = () => {

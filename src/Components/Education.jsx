@@ -10,7 +10,7 @@ const educationList = [
   {
     degree: "Bachelor of Statistics",
     school: "Hacettepe University",
-    period: "2022 - Present",
+    period: "2024 - Present",
     description: "Focusing on statistical analysis, data science methodologies, and machine learning applications.",
   },
 ];
