@@ -29,7 +29,7 @@ import React from "react";
  */
 const projectList = [
   {
-    title: "Open Passwd v0.1",
+    title: "Open Passwd v0.1 🎉",
     description:
       "Terminal üzerinden çalışan basit bir yerel parola yöneticisi. AES şifreleme ile güvenli parola saklama, parola üretme ve yönetme desteği sunar.",
     url: "https://github.com/efekcss/open-passwd_v0.1",
@@ -39,6 +39,18 @@ const projectList = [
     description:
       "Windows app timer and blocker for battle with screen addiction. Focus on more important things with this productivity tool.",
     url: "https://github.com/efekcss/app_timer",
+  },
+  {
+    title: "Data Science Portfolio",
+    description:
+      "Collection of data science projects including machine learning models, statistical analysis, and data visualizations using Python and R.",
+    url: "#", // Gerçek proje URL'nizi buraya ekleyin
+  },
+  {
+    title: "Statistical Analysis Dashboard",
+    description:
+      "Interactive dashboard for statistical analysis and data visualization built with Python, Streamlit, and Plotly.",
+    url: "#", // Gerçek proje URL'nizi buraya ekleyin
   },
 ];
 

@@ -26,7 +26,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "H. Efe Kocasu",
-  title: "Statistics Student || Data Scientist(not even yet Jr. but on it) || ML & DL & AI",
+  title: "Statistics Student || Data Scientist(not even Jr.) || ML & DL & AI",
   email: "kocasuhasanefe@gmail.com",
   gitHub: "efekcss",
   instagram: "efekcss",
@@ -36,8 +36,8 @@ const siteProps = {
   youTube: "", 
 };
 
-const primaryColor = "#FFFFFF"; // Beyaz
-const secondaryColor = "#757A80"; // füme rengi gri
+const primaryColor = "#1E3A8A"; // Koyu mavi - veri bilimi teması
+const secondaryColor = "#E0F2FE"; // Açık mavi
 
 const App = () => {
   return (
