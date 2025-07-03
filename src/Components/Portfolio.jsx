@@ -40,6 +40,15 @@ const projectList = [
       "Windows app timer and blocker for battle with screen addiction. Focus on more important things with this productivity tool.",
     url: "https://github.com/efekcss/app_timer",
   },
+<<<<<<< HEAD
+=======
+  {
+    title: "Data Science Portfolio",
+    description:
+      "Collection of data science projects including machine learning models, statistical analysis, and data visualizations using Python and R.",
+    url: "#", // Gerçek proje URL'nizi buraya ekleyin
+  },
+>>>>>>> 86c07ef (Portfolio edited)
 ];
 
 
