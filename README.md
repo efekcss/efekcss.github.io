@@ -33,6 +33,7 @@ This portfolio is built with:
 - **GitHub**: [@efekcss](https://github.com/efekcss)
 - **LinkedIn**: [Hasan Efe Kocasu](https://linkedin.com/in/efekcss)
 - **Medium**: [@hefekocasu](https://medium.com/@hefekocasu)
----
+- **Twitter**: [@efekcss](https://twitter.com/efekcss)
+ ---
 
 ⭐ **Thanks for visiting my portfolio!** ⭐
