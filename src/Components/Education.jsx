@@ -23,11 +23,11 @@ const Education = () => {
         <div className="container">
           <div className="box">
             {educationList.map((education, index) => (
-              <div key={index} style={{ marginBottom: "2rem", padding: "1rem", border: "1px solid #ddd", borderRadius: "8px" }}>
-                <h3 style={{ marginBottom: "0.5rem", color: "#1E3A8A" }}>{education.degree}</h3>
-                <h4 style={{ marginBottom: "0.5rem", color: "#666" }}>{education.school}</h4>
-                <p style={{ fontWeight: "bold", marginBottom: "0.5rem", color: "#888" }}>{education.period}</p>
-                <p>{education.description}</p>
+              <div key={index} style={{ marginBottom: "2rem", padding: "1rem", border: "1px solid #666", borderRadius: "8px" }}>
+                <h3 style={{ marginBottom: "0.5rem", color: "#ffffff" }}>{education.degree}</h3>
+                <h4 style={{ marginBottom: "0.5rem", color: "#cccccc" }}>{education.school}</h4>
+                <p style={{ fontWeight: "bold", marginBottom: "0.5rem", color: "#aaaaaa" }}>{education.period}</p>
+                <p style={{ color: "#ffffff" }}>{education.description}</p>
               </div>
             ))}
           </div>
