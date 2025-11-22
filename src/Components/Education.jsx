@@ -17,7 +17,7 @@ const educationList = [
 
 const Education = () => {
   return (
-    <section className="padding" id="education">
+    <section className="padding" id="education" style={{ backgroundColor: "#000000" }}>
       <h2 style={{ textAlign: "center" }}>Education</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div className="container">

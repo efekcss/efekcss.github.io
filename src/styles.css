@@ -26,6 +26,7 @@ div#main {
 section {
   position: relative;
   width: 100vw;
+  background-color: #000000;
 }
 
 section.min-height {
