@@ -72,8 +72,8 @@ export default function About() {
         >
           <div className="p-6 bg-neutral-900/50 rounded-3xl border border-neutral-800/50">
             <img 
-              src="https://picsum.photos/seed/profile/400/400" 
-              alt="Hasan Efe" 
+              src="https://avatars.githubusercontent.com/u/46496141?v=4" 
+              alt="Hasan Efe Kocasu" 
               className="w-full aspect-square object-cover rounded-2xl mb-6"
               referrerPolicy="no-referrer"
             />
