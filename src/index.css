@@ -18,3 +18,20 @@ body {
   background: #333;
   color: #fff;
 }
+
+/* Utilities from stitch.html */
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.frost {
+  background: rgba(140, 157, 232, 0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(140, 157, 232, 0.2);
+}
+.glow-hover:hover {
+  box-shadow: 0 0 20px rgba(140, 157, 232, 0.2);
+}
