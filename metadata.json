@@ -1,5 +1,20 @@
 {
-  "name": "Hasan Efe Portfolio",
-  "description": "A modern and animated portfolio for Hasan Efe, showcasing Data Science, Statistics research, and GitHub projects.",
+  "name": "Hasan Efe Kocasu Portfolio",
+  "description": "A modern and animated portfolio for showcasing Data Science, Statistics research, and GitHub projects.",
+  "author": "Hasan Efe Kocasu",
+  "url": "https://efekcss.github.io",
+  "contact": "kocasuhasanefe@gmail.com",
+  "technologies": [
+    "HTML5",
+    "Tailwind CSS (via CDN)",
+    "Google Fonts",
+    "Vanilla JavaScript",
+    "GitHub Pages"
+  ],
+  "build": {
+    "type": "static",
+    "tooling": "none (static index.html served directly)"
+  },
+  "lastUpdated": "2026-02-27",
   "requestFramePermissions": []
 }
