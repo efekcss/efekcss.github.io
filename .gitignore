@@ -32,3 +32,5 @@ coverage/
 
 # Generated static site artifacts
 /.parcel-cache
+
+README.md
