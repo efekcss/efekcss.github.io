@@ -1,75 +1,66 @@
-# efekcss.github.io — Kişisel Web Sitesi (Statik)
+# Benim Site Kaynağım — efe (Hasan Efe Kocasu)
 
-Bu depo, H. Efe Kocasu'nun kişisel portföy sitesinin statik versiyonunu içerir. Proje artık React/Vite tabanlı değildir; site doğrudan kök `index.html` dosyası ile sunulur. Amaç: hızlı, kolay yönetilebilir ve doğrudan GitHub Pages üzerinde yayınlanabilir bir statik site yapısı sağlamak.
+Merhaba — bu repo, benim kişisel portföy sitemin statik versiyonunu barındırıyor. Ben siteyi doğrudan HTML + Tailwind (CDN) ile basit, hızlı ve kolay yönetilebilir tutmayı tercih ettim. Aşağıda projeyi nasıl kullanacağımı, nasıl düzenleyeceğimi ve neden bu şekilde tuttuğumu adım adım yazdım.
 
-Özet
-- Tür: Statik web sitesi (HTML + Tailwind via CDN)
-- Yayın: GitHub Pages (repository `main` branch) — https://efekcss.github.io/
-- Ana dosya: `index.html`
+## Kısa Özet
+- Tür: Statik web sitesi (tek `index.html` dosyası)
+- Yayın: GitHub Pages — https://efekcss.github.io/
+- Ana dosya: `index.html` (tüm içerik ve görseller burada veya harici URL'lerde)
 
-Önemli Not
-- Projede daha önce React/Vite kullanılan kaynaklar temizlendi. Eğer ileride yeniden React isterseniz commit geçmişinde önceki sürümlere dönebilirsiniz.
+## Neden statik?
+Benim için yönetimi kolay olmalıydı. Hızlı değişiklik yapmak, dosyayı doğrudan düzenlemek ve anında GitHub Pages üzerinden yayınlamak istedim. React/Vite gibi araçlar güçlü ama ekstra karmaşıklık getiriyor; bu projede gereksizdi, bu yüzden temizledim.
 
-Teknolojiler
+## Ne var içeride
+- `index.html` — site içeriği, stiller ve küçük yardımcı CSS/JS
+- `README.md` — bu belge
+- `metadata.json` — proje hakkında hızlı bilgiler (yazar, iletişim, teknoloji listesi)
+- `.gitignore` — gereksiz dosyaların repo'ya eklenmesini engeller
+
+## Hangi teknolojileri kullandım
 - HTML5
-- Tailwind CSS (CDN üzerinden)
+- Tailwind CSS (CDN üzerinden, inline konfigürasyonla)
 - Google Fonts (Inter, Material Symbols)
-- Saf JavaScript (gerekirse küçük etkileşimler için eklenir)
+- Saf JavaScript (gerektiğinde)
 - Git + GitHub Pages (yayınlama)
 
-Mimari ve Yapı
-- Tek sayfa (single static file) yaklaşımı: `index.html` içinde tüm içerik, stiller (Tailwind sınıfları), ve gerekli küçük yardımcı stiller yer alır.
-- Arka plan animasyonları ve efektler Tailwind sınıfları ve inline `style`/`script` konfigürasyonlarıyla uygulanmıştır.
-
-Dosya/klasör yapısı (kök)
-- index.html — Site ana HTML dosyası (hero, services, selected work, contact, footer)
-- README.md — (Bu dosya)
-- .gitignore, .eslintrc, metadata.json — yardımcı dosyalar
-
-Önceki (silinmiş) içerikler
-- `src/` klasörü ve Node araç zinciri (package.json, vite, tsconfig, CI workflow) kaldırıldı — çünkü site statik olarak yönetilecek.
-
-Yerel Geliştirme & Test
-1. Basit bir HTTP sunucusu kullanarak yerelde çalıştırın (hiç Node gerektirmez):
+## Hızlı düzenleme rehberi (benim ağzımdan)
+1. `index.html` dosyasını açarım.
+2. Başlık, hero metni, servisler veya referans görselleri değiştirmek istiyorsam ilgili bölümde düzenleme yaparım.
+3. Yeni görsel ekleyeceksem projede `images/` gibi bir klasör açarım ve `index.html` içindeki `src` adreslerini buna göre güncellerim.
+4. Renk veya efekt değiştirmek istersem `index.html` içinde `primary` renk tanımını veya inline `style` bloklarını güncellerim.
+5. Değişiklikleri kaydederim, sonra terminalde:
 
 ```bash
-# proje kökünde çalıştırın
-python3 -m http.server 3000
-# sonra tarayıcıda açın:
-http://localhost:3000/
+git add -A
+git commit -m "Güncelleme: <kısa açıklama>"
+git push origin main
 ```
 
-2. Değişiklik yaptıktan sonra Git ile commit & push yapın; GitHub Pages otomatik olarak yayınlayacaktır.
+GitHub Pages birkaç dakika içinde güncelleyecektir.
 
-Özelleştirme Rehberi (Hızlı)
-- Başlık / içerik değişikliği: `index.html` içindeki ilgili bölümleri düzenleyin.
-- Renkler / animasyonlar: `index.html` içinde `tailwind.config` benzeri inline ayarlar ve `style` blokları yer alır. Basit renk değişiklikleri için `primary` sınıfını arayın ve hex kodunu değiştirin.
-- Fontlar: Google Fonts bağlantıları `index.html` head kısmında bulunmaktadır. Farklı bir font eklemek isterseniz orayı güncelleyin.
-- Görseller: Mevcut görseller harici URL kullanıyor. Kendi görsellerinizi eklemek için `images/` gibi bir klasör oluşturup `index.html` içindeki `src` değerlerini güncelleyin.
+## Yerelde hızlı test
+Node yüklemeye gerek yok. Terminalde proje kökünden:
 
-Erişilebilirlik & SEO
-- Her görsel `alt` veya `data-alt` ile işaretlenmiştir; canlı yayında `alt` eklemeyi/iyileştirmeyi düşünebilirsiniz.
-- Başlıklar (`h1`, `h2`) ve meta viewport zaten ayarlı; meta description eklemek isterseniz `index.html` head kısmına ekleyin.
+```bash
+python3 -m http.server 3000
+# sonra tarayıcıda aç: http://localhost:3000
+```
 
-Yayınlama (GitHub Pages)
-- Bu repo `main` branch üzerinde `index.html` kök dosyası ile yayınlanır. Değişiklik yaptığınızda `git add && git commit && git push` yeterlidir; GitHub Pages birkaç dakika içinde güncellenecektir.
+## Notlar — Temizleme/Geçmiş
+- Önceden proje React + Vite ile geliyordu; ben bu sürümü kaldırdım. Eğer gelecekte component tabanlı geliştirme istersem commit geçmişinden eski sürümlere dönebiliyorum.
 
-Geri alma / Geçmiş
-- Eğer React tabanlı eski sürümlere geri dönmek isterseniz commit geçmişinden önceki commit'leri kullanabilirsiniz (ör: `git log` ve `git checkout <commit>`).
+## Metadata ve iletişim
+- `metadata.json` dosyasında yazar, site URL ve kullanılan teknolojiler bulunuyor. Bunu otomatik araçlar veya dokümantasyon için kullanabilirim.
+- Bana ulaşmak isterseniz: `kocasuhasanefe@gmail.com` veya GitHub: https://github.com/efekcss
 
-Öneriler / İleri adımlar
-- Küçük değişiklikler için doğrudan `index.html` düzenleyin.
-- Daha büyük geliştirmeler, component tabanlı çalışma veya SSG/SSG için (Next.js, Astro vs.) gelecekte yeniden Node tabanlı yapı eklemeyi düşünebilirsiniz.
+## Yayınlama & bakım notları
+- Repo kökünde `index.html` bulunuyorsa GitHub Pages otomatik olarak bu dosyayı sunar (ayarlarda `main` — root seçili olmalı).
+- Eğer site görünmezse GitHub repo ayarlarından Pages bölümünü kontrol ederim.
 
-Katkıda Bulunma
-- Kişisel repo olduğu için katkı süreci basittir: değişiklik yapın, commit edin ve pushlayın. Yardım veya öneri isterseniz issue açın veya doğrudan iletişime geçin.
-
-İletişim
-- E-posta: kocasuhasanefe@gmail.com
-- GitHub: https://github.com/efekcss
-
-Lisans
-- Bu proje kişisel kullanıma yöneliktir; açık kaynak lisansı eklemek isterseniz talimat verin, `LICENSE` dosyası ekleyebilirim.
+## İleri adımlar (opsiyonel)
+- İleride siteyi daha kolay yönetmek istersen, küçük bir CMS veya Netlify CMS eklemeyi düşünebilirim.
+- Çok daha büyük bir revizyon istersen (componentlar, veri dosyaları, build adımları), tekrar Node tabanlı bir workflow kurarım.
 
 ---
-Bu README, projenin statik yapı ve yönetimini kolaylaştırmak için hazırlandı. Daha spesifik bir bölüm eklememi isterseniz (ör. detaylı CSS açıklamaları, erişilebilirlik checklist, ya da deploy adımları), söyleyin; hemen eklerim.
+Bu README benim kişisel notum şeklinde yazıldı — istersen başka bir üslup, ayrıntı veya teknik bölüm ekleyebilirim. Ne eklememi istersin? 
+
