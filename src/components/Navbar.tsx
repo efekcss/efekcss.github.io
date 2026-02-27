@@ -20,7 +20,7 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0a0a0a]/80 backdrop-blur-md border-b border-white/5">
       <div className="max-w-5xl mx-auto px-6 h-20 flex items-center justify-between">
         <Link to="/" className="text-xl font-semibold tracking-tight z-50">
-          Hasan Efe<span className="text-neutral-500">.</span>
+          efekcss<span className="text-neutral-500">.</span>
         </Link>
         
         {/* Desktop Menu */}
