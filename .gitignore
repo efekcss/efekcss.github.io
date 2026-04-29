@@ -1,3 +1,6 @@
+#python sanal ortamını pushlamasın tabiki
+venv/
+
 # Node (if ever used locally)
 node_modules/
 
